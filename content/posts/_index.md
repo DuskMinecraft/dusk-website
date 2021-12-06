@@ -1,7 +1,7 @@
 ---
-title: 'Blog'
-date: 2019-02-24
+title: '文档'
+date: 2021-12-06
 menu:
   main:
-    name: "Posts"
+    name: "文档"
 ---

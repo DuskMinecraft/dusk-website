@@ -9,6 +9,9 @@
     margin-bottom: 40px;
   }
   a.header-logo {
+    font-family: var(--font-family-logo);
+    font-size: 55px;
+    text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 30px;
@@ -16,8 +19,6 @@
 }
 
 .menu-main {
-  display: none;
-  flex: 0;
   @include breakpoint('small') {
     display: block;
   }
@@ -29,6 +30,7 @@
       margin-right: 10px;
       > a {
         display: inline-block;
+        white-space: nowrap;
         text-decoration: none;
         &:hover {
           text-decoration: underline;

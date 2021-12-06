@@ -1,10 +1,43 @@
+/* Kylarzio */
+@font-face {
+  font-family: 'Kylarzio';
+  src: url("/fonts/Kylarzio.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+/* AGaramondPro */
+@font-face {
+  font-family: 'AGaramondPro';
+  src: url("/assets/font/AGaramondPro/AGaramondPro-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AGaramondPro';
+  src: url("/assets/font/AGaramondPro/AGaramondPro-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'AGaramondPro';
+  src: url("/assets/font/AGaramondPro/AGaramondPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AGaramondPro';
+  src: url("/assets/font/AGaramondPro/AGaramondPro-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic; }
+
 :root {
   --font-family-heading: 'Poppins', sans-serif;
   --font-family-paragraph: Helvetica, sans-serif;
   --font-family-mono: monospace;
+  --font-family-logo: 'Kylarzio';
   --base-color: #ffffff;
   --base-offset-color: #eaeaea;
-  --highlight-color: #7b16ff;
+  --highlight-color: #ff722b;
   --heading-color: #1c1b1d;
   --text-color: #4e5157; }
 
@@ -34,32 +67,34 @@ h1, h2, h3 {
       padding-bottom: 5px;
       margin-bottom: 40px; } }
   .header a.header-logo {
+    font-family: var(--font-family-logo);
+    font-size: 55px;
+    text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 30px; }
 
-.menu-main {
-  display: none;
-  flex: 0; }
-  @media (min-width: 767px) {
-    .menu-main {
-      display: block; } }
-  .menu-main > ul {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; }
-    .menu-main > ul > li {
-      margin-right: 10px; }
-      .menu-main > ul > li > a {
-        display: inline-block;
-        text-decoration: none; }
-        .menu-main > ul > li > a:hover {
-          text-decoration: underline; }
-      .menu-main > ul > li.active > a {
-        display: inline-block;
-        font-weight: bold; }
-      .menu-main > ul > li:last-of-type {
-        margin-right: 0; }
+@media (min-width: 767px) {
+  .menu-main {
+    display: block; } }
+
+.menu-main > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+  .menu-main > ul > li {
+    margin-right: 10px; }
+    .menu-main > ul > li > a {
+      display: inline-block;
+      white-space: nowrap;
+      text-decoration: none; }
+      .menu-main > ul > li > a:hover {
+        text-decoration: underline; }
+    .menu-main > ul > li.active > a {
+      display: inline-block;
+      font-weight: bold; }
+    .menu-main > ul > li:last-of-type {
+      margin-right: 0; }
 
 .footer {
   margin-top: 30px; }
@@ -207,7 +242,6 @@ ul {
     margin-bottom: 30px; }
     @media (min-width: 767px) {
       .intro h1 {
-        width: 80%;
         font-size: 88px;
         line-height: 94px;
         margin-bottom: 50px; } }
@@ -284,6 +318,8 @@ ul {
     vertical-align: middle; }
 
 .author-large {
+  margin-top: 30px;
+  color: var(--heading-color);
   font-size: 20px; }
   .author-large img {
     width: 50px;
@@ -592,14 +628,16 @@ body {
   font-family: var(--font-family-paragraph);
   color: var(--text-color);
   margin: 0;
-  padding: 30px;
+  padding: 25px;
   overflow-x: hidden; }
   @media (min-width: 767px) {
     body {
       padding: 50px; } }
   body.frame {
     min-height: 100vh;
-    border: 18px solid var(--highlight-color); }
+    border: 18px solid var(--highlight-color);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(315deg, #f5d020 0%, #f53803 74%); }
 
 .wrapper {
   max-width: 1000px;

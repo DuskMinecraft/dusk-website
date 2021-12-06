@@ -21,7 +21,9 @@
     vertical-align: middle;
   }
 }
-.author-large {
+  .author-large {
+  margin-top: 30px;
+  color: var(--heading-color);
   font-size: 20px;
   img {
     width: 50px;

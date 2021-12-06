@@ -1,8 +1,8 @@
-baseURL = "http://121.41.122.111:80/"
+baseURL = "http://121.41.122.111:81/"
 themesDir = "themes"
-theme = "hugo-winston-theme"
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "winston"
+languageCode = 'zh-cmn-Hans'
+title = 'Dusk Minecraft'
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -16,7 +16,7 @@ paginate = 3
 
 [params]
   google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  twitter_handle = ""
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
   showPostsOnHomepage = false

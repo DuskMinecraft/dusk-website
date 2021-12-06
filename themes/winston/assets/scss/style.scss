@@ -1,10 +1,12 @@
+@import 'fonts';
 :root {
   --font-family-heading: 'Poppins', sans-serif;
   --font-family-paragraph: Helvetica, sans-serif;
   --font-family-mono: monospace;
+  --font-family-logo: 'Kylarzio';
   --base-color: #ffffff;
   --base-offset-color: #eaeaea;
-  --highlight-color: #7b16ff;
+  --highlight-color: #ff722b;
   --heading-color: #1c1b1d;
   --text-color: #4e5157;
 }
@@ -35,7 +37,7 @@ body {
   font-family: var(--font-family-paragraph);
   color: var(--text-color);
   margin: 0;
-  padding: 30px;
+  padding: 25px;
   overflow-x: hidden;
   @include breakpoint('small') {
     padding: 50px;
@@ -43,6 +45,8 @@ body {
   &.frame {
     min-height: 100vh;
     border: 18px solid var(--highlight-color);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
   }
 }
 
