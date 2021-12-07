@@ -27,13 +27,3 @@ paginate = 3
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[mediaTypes]
-  [mediaTypes."application/x-php"]
-  suffixes = ["php"]
-
-[outputFormats]
-    [outputFormats.PHP]
-        mediaType = "application/x-php"
-        isHTML = true
-        baseName = "index"
