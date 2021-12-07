@@ -1,4 +1,4 @@
-baseURL = "121.41.122.111:81"
+baseURL = "http://121.41.122.111/"
 themesDir = "themes"
 theme = "winston"
 languageCode = 'zh-cmn-Hans'
