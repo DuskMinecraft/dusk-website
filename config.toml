@@ -1,4 +1,4 @@
-baseURL = "http://121.41.122.111:81/"
+baseURL = "duskmc.cn"
 themesDir = "themes"
 theme = "winston"
 languageCode = 'zh-cmn-Hans'
@@ -8,11 +8,6 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 paginate = 3
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
 
 [module]
   [module.hugoVersion]
@@ -27,3 +22,18 @@ paginate = 3
   showPostsOnHomepage = false
   addFrame = true
   addDot = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffixes = ["php"]
+
+[outputFormats]
+    [outputFormats.PHP]
+        mediaType = "application/x-php"
+        isHTML = true
+        baseName = "index"
