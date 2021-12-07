@@ -9,6 +9,11 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 paginate = 3
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [module]
   [module.hugoVersion]
     extended = true
