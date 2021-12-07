@@ -1,13 +1,8 @@
 <div class="footer">
-  {{ if .Site.Data.social.links }}
-  <div class="footer-social">
-    {{ range .Site.Data.social.links }}
-      <span class="social-icon social-icon-{{ .name | urlize }}">
-        <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
-          <img src="{{ .image | relURL }}" width="24" height="24" alt="{{ .name }}"/>
-        </a>
-      </span>
-    {{ end }}
-  </div>
-  {{ end }}
+    <div class="footer-social">
+        <span class="social-url">
+          <a href="https://jq.qq.com/?_wv=1027&k=ywukai3W" title="群号：514673346" target="_blank" rel="noopener">QQ</a>
+          <a href="https://github.com/DuskMinecraft" title="欢迎维护！" target="_blank" rel="noopener">Github</a>
+        </span>
+    </div>
 </div>
