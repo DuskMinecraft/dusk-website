@@ -1,3 +1,10 @@
+/* FiraCode */
+@font-face {
+  font-family: 'FiraCode';
+  src: url("/fonts/FiraCode-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
 /* Kylarzio */
 @font-face {
   font-family: 'Kylarzio';
@@ -21,7 +28,7 @@
 :root {
   --font-family-heading: 'DinkieBitmap', sans-serif;
   --font-family-paragraph: 'DinkieBitmap', sans-serif;
-  --font-family-mono: monospace;
+  --font-family-monospace: 'FiraCode', monospace;
   --font-family-logo: 'Kylarzio';
   --base-color: #ffffff;
   --base-offset-color: #eaeaea;
@@ -89,11 +96,11 @@ h1, h2, h3 {
   @media (min-width: 767px) {
     .footer {
       padding-top: 40px; } }
-.social-url {
+.footer-url {
   margin-right: 10px; }
-  .social-url a {
+  .footer-url a {
     text-decoration: none; }
-    .social-url a:hover {
+    .footer-url a:hover {
       text-decoration: underline; }
 
 a {
