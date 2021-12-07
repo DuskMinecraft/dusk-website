@@ -97,11 +97,20 @@ h1, h2, h3 {
     .footer {
       padding-top: 40px; } }
 .footer-url {
-  margin-right: 10px; }
+  margin-right: 10px;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; }
   .footer-url a {
     text-decoration: none; }
     .footer-url a:hover {
-      text-decoration: underline; }
+      text-decoration: none; }
+      .footer-url a:hover img {
+        opacity: 0.7; }
 
 a {
   color: var(--highlight-color);
@@ -635,5 +644,8 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto; }
+
+img {
+  pointer-events: none; }
 
 /*# sourceMappingURL=style.css.map */
