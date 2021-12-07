@@ -646,6 +646,7 @@ body {
   margin: 0 auto; }
 
 img {
-  pointer-events: none; }
+  pointer-events: none;
+  user-select: none; }
 
 /*# sourceMappingURL=style.css.map */
