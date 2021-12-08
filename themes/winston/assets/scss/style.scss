@@ -1,4 +1,5 @@
 @import 'fonts';
+@import 'animation';
 :root {
   --font-family-heading: 'DinkieBitmap', sans-serif;
   --font-family-paragraph: 'DinkieBitmap', sans-serif;
@@ -58,4 +59,9 @@ body {
 img {
   pointer-events: none;
   user-select: none;
+}
+
+.cover{
+  -webkit-animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }

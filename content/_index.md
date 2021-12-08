@@ -2,4 +2,4 @@
 title: 落日 Minecraft
 description: 
 ---
-![](../material/header.webp)
+<img src="../material/header.webp" class="cover">
