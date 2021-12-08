@@ -1,14 +1,14 @@
 .intro {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   h1 {
     font-size: 2.5rem;
     line-height: 1.2;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     @include breakpoint('small') {
       font-size: 4.5rem;
       line-height: 1.2;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
     strong {
       color: var(--highlight-color);

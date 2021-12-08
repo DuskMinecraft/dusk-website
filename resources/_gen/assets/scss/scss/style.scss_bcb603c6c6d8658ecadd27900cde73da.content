@@ -230,7 +230,7 @@ ul {
     display: inline;
     color: var(--color-base-text); }
   .content img {
-    margin: 40px 0 40px 0;
+    margin: 20px 0 20px 0;
     max-width: 100%;
     height: auto; }
   .content figure {
@@ -260,17 +260,17 @@ ul {
   color: var(--highlight-color); }
 
 .intro {
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
   .intro h1 {
     font-size: 2.5rem;
     line-height: 1.2;
     margin-top: 0;
-    margin-bottom: 30px; }
+    margin-bottom: 20px; }
     @media (min-width: 576px) {
       .intro h1 {
         font-size: 4.5rem;
         line-height: 1.2;
-        margin-bottom: 50px; } }
+        margin-bottom: 40px; } }
     .intro h1 strong {
       color: var(--highlight-color); }
   .intro h2 {
@@ -342,7 +342,7 @@ ul {
   .summary .summary-title {
     margin: 16px 0 16px 0;
     width: 80%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.2; }
     @media (min-width: 576px) {
       .summary .summary-title {
