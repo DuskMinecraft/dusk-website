@@ -9,6 +9,9 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 paginate = 3
 
+[permalinks]
+  post = "/post/:slug"
+  
 [module]
   [module.hugoVersion]
     extended = true

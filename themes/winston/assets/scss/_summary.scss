@@ -14,12 +14,12 @@
   .summary-title {
     margin: 16px 0 16px 0;
     width: 80%;
-    font-size: 34px;
-    line-height: 38px;
+    font-size: 2rem;
+    line-height: 1.2;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 52px;
-      line-height: 58px;
+      font-size: 3rem;
+      line-height: 1.2;
     }
   }
   .summary-description {

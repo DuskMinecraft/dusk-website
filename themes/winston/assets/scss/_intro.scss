@@ -1,13 +1,13 @@
 .intro {
   margin-bottom: 60px;
   h1 {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 2.5rem;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 30px;
     @include breakpoint('small') {
-      font-size: 88px;
-      line-height: 94px;
+      font-size: 4.5rem;
+      line-height: 1.2;
       margin-bottom: 50px;
     }
     strong {
@@ -15,19 +15,19 @@
     }
   }
   h2 {
-    font-size: 50px;
-    line-height: 56px;
+    font-size: 2rem;
+    line-height: 1.4;
     @include breakpoint('small') {
       width: 80%;
+      font-size: 3rem;
+      light-height: 1.2;
     }
   }
   p {
     font-size: 20px;
-    line-height: 26px;
+    line-height: 1.5;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 22px;
-      line-height: 32px;
     }
   }
   .read-more {
@@ -42,6 +42,45 @@
   img {
     max-width: 100%;
   }
+  .dusk {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+  }
+
+  .button-download {
+      font-family: 'DinkieBitmap', sans-serif;
+      font-size: 18px;
+      @include breakpoint('large') {
+        font-size: 1.8vw;
+      }
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--highlight-color);
+      cursor: pointer;
+      border: 3.5px solid;
+      padding: 0.25em 0.5em;
+      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      display:block;
+      margin:0 auto;
+  }
+
+  .button-download:active {
+      box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
+  }
+
+  @media (min-width: 768px) {
+      .button-download {
+          padding: 0.25em 0.75em;
+      }
+  }
+
   // img {
   //   margin-right: -30px;
   //   width: 100vw;

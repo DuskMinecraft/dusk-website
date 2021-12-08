@@ -13,9 +13,10 @@
 }
 
 $breakpoints: (
-  'small': 767px,
-  'medium': 992px,
-  'large': 1200px,
+  'small': 576px,
+  'medium': 768px,
+  'large': 992px,
+  'exlarge':1200px,
 );
 
 @import 'normalize';
@@ -52,16 +53,17 @@ body {
 }
 
 .wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 img {
-  pointer-events: none;
-  user-select: none;
+    border-radius:15px;
+    pointer-events: none;
+    user-select: none;
 }
 
-.cover{
-  -webkit-animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.cover {
+    -webkit-animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bck-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
