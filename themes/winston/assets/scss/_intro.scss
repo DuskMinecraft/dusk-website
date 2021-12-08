@@ -48,39 +48,6 @@
       background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
   }
 
-  .button-download {
-      font-family: 'DinkieBitmap', sans-serif;
-      font-size: 18px;
-      @include breakpoint('large') {
-        font-size: 1.8vw;
-      }
-      text-decoration: none;
-      text-transform: uppercase;
-      color: var(--highlight-color);
-      cursor: pointer;
-      border: 3.5px solid;
-      padding: 0.25em 0.5em;
-      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-      position: relative;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      display:block;
-      margin:0 auto;
-  }
-
-  .button-download:active {
-      box-shadow: 0px 0px 0px 0px;
-      top: 5px;
-      left: 5px;
-  }
-
-  @media (min-width: 768px) {
-      .button-download {
-          padding: 0.25em 0.75em;
-      }
-  }
-
   // img {
   //   margin-right: -30px;
   //   width: 100vw;
