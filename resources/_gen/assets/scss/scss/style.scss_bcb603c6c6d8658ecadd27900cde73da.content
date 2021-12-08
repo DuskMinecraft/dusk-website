@@ -136,6 +136,9 @@ h1, h2, h3 {
 .footer-icon-github {
   margin-right: 0px !important; }
 
+.icon {
+  border-radius: 0px !important; }
+
 a {
   color: var(--highlight-color);
   text-decoration: none; }
