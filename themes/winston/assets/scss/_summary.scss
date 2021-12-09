@@ -15,10 +15,10 @@
     margin: 16px 0 16px 0;
     width: 80%;
     font-size: 1.5rem;
-    line-height: 1.2;
+    line-height: 1.1;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 3rem;
+      font-size: 2rem;
       line-height: 1.2;
     }
   }
