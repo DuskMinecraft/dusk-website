@@ -13,10 +13,11 @@
   @include breakpoint('small') {
     padding-bottom: 5px;
     margin-bottom: 40px;
+    font-size: 22px;
   }
   a.header-logo {
     font-family: var(--font-family-logo);
-    font-size: 55px;
+    font-size: 65px;
     text-decoration: none;
     font-weight: bold;
     -webkit-background-clip: text;
@@ -25,7 +26,7 @@
     text-transform: uppercase;
     margin-right: 30px;
       @include breakpoint('medium'){
-        font-size: 65px;
+        font-size: 75px;
       }
   }
 }

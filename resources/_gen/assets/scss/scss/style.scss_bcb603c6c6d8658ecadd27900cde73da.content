@@ -87,10 +87,11 @@ h1, h2, h3 {
   @media (min-width: 576px) {
     .header {
       padding-bottom: 5px;
-      margin-bottom: 40px; } }
+      margin-bottom: 40px;
+      font-size: 22px; } }
   .header a.header-logo {
     font-family: var(--font-family-logo);
-    font-size: 55px;
+    font-size: 65px;
     text-decoration: none;
     font-weight: bold;
     -webkit-background-clip: text;
@@ -100,7 +101,7 @@ h1, h2, h3 {
     margin-right: 30px; }
     @media (min-width: 768px) {
       .header a.header-logo {
-        font-size: 65px; } }
+        font-size: 75px; } }
 @media (min-width: 576px) {
   .menu-main {
     display: block; } }
