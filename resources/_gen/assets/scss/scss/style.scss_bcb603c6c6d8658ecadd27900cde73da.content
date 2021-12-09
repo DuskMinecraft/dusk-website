@@ -93,6 +93,9 @@ h1, h2, h3 {
     font-size: 55px;
     text-decoration: none;
     font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
     text-transform: uppercase;
     margin-right: 30px; }
 
@@ -331,10 +334,6 @@ ul {
         line-height: 32px; } }
   .intro img {
     max-width: 100%; }
-  .intro .dusk {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%); }
 
 .summary {
   margin-bottom: 50px;
