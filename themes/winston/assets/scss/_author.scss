@@ -22,10 +22,13 @@
   }
 }
   .author-large {
-  margin-top: 30px;
+  margin-top: 5px;
   margin-bottom: 5px;
   color: var(--heading-color);
   font-size: 20px;
+  @include breakpoint('mini') {
+    margin-top: 30px;
+  }
   img {
     width: 50px;
     height: 50px;

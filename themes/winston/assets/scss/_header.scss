@@ -1,9 +1,15 @@
 .header {
-  display: flex;
+  display: block;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 18px;
+  @include breakpoint('mini'){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+  }
   @include breakpoint('small') {
     padding-bottom: 5px;
     margin-bottom: 40px;

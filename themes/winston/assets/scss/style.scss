@@ -13,10 +13,11 @@
 }
 
 $breakpoints: (
+  'mini': 376px,
   'small': 576px,
   'medium': 768px,
   'large': 992px,
-  'exlarge':1200px,
+  'huge':1200px,
 );
 
 @import 'normalize';

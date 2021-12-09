@@ -39,6 +39,10 @@ ul {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
+    @include breakpoint('small') {
+      font-size: 2px;
+      line-height: 1.2;
+    }
   }
   h1 {
     font-size: 2rem;
