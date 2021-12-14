@@ -1,6 +1,7 @@
 ---
 title: '关于'
-image: 
+image:
+url: 'about' 
 menu:
   main:
     name: "关于"

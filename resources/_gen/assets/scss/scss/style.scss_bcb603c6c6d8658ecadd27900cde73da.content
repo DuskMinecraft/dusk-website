@@ -191,7 +191,7 @@ ul {
     margin-bottom: 20px; }
     @media (min-width: 576px) {
       .content p {
-        font-size: 2px;
+        font-size: 22px;
         line-height: 1.2; } }
   .content h1 {
     font-size: 2rem;
