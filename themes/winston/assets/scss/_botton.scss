@@ -81,17 +81,17 @@
 .button {
     border: none;
     outline: none;
-    background-color: red;
-    padding: 1rem 90px 1rem 2rem;
+    padding: 1rem 30px 1rem 2rem;
     position: relative;
     border-radius: 8px;
     letter-spacing: 0.7px;
     background-color: var(--highlight-color);
-    color: #fff;
-    font-size: 20px;
     font-family: "DinkieBitmap", sans-serif;
     cursor: pointer;
     box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+    display:block;
+    margin:0 auto;
+    margin-top: 28px;
 }
 .button:active {
     transform: translateY(1px);

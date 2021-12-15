@@ -3,6 +3,7 @@ themesDir = "themes"
 theme = "winston"
 languageCode = 'zh-cmn-Hans'
 title = 'Dusk Minecraft'
+copyright = 'duskmc.cn. 保留所有权利。'
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -30,6 +31,9 @@ paginate = 3
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[taxonomies]
+  category = "categories"
 
 [mediaTypes]
   [mediaTypes."application/x-php"]

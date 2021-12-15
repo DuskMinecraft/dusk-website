@@ -8,7 +8,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: var(--heading-color);
@@ -17,7 +18,7 @@ h3 {
 p {
   color: var(--text-color);
   font-family: var(--font-family-paragraph);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
 }
 
@@ -41,7 +42,7 @@ ul {
     margin-bottom: 20px;
     @include breakpoint('small') {
       font-size: 22px;
-      line-height: 1.2;
+      line-height: 1.4;
     }
   }
   h1 {
@@ -73,26 +74,31 @@ ul {
     }
   }
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 1.4rem;
     line-height: 0.9;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 20px;
-    @include breakpoint('small') {
-      font-size: 1.7rem;
-      line-height: 1;
-    }
   }
-  ul,
-  ol {
+  b, strong {
+    color: var(--highlight-color);
+  }
+  ul, ol {
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 20px;
     list-style: disc;
     li {
-      font-size: 18px;
-      line-height: 20px;
-      margin-bottom: 10px;
+      font-size: 1.25rem;
+      line-height: 1.2em;
+      margin-bottom: 8px;
       margin-left: 0;
       @include breakpoint('small') {
         margin-left: 20px;
@@ -110,10 +116,10 @@ ul {
   blockquote {
     border-left: 5px solid var(--highlight-color);
     margin: 30px 0;
-    padding: 20px;
+    padding: 16px;
   }
   blockquote p {
-    font-size: 20px;
+    font-size: 22px;
     display: inline;
     color: var(--color-base-text);
   }
@@ -152,6 +158,12 @@ ul {
       overflow: auto;
       font-family: var(--font-family-monospace);
     }
+  }
+.lastmod-date {
+    font-weight: bold;
+    color: var(--heading-color);
+    font-size: 18px;
+    margin-bottom: 5px;
   }
 }
 

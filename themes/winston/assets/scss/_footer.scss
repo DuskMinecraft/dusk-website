@@ -1,5 +1,6 @@
 .footer {
-    margin-top: 30px;
+    margin-top: 60px;
+
     @include breakpoint('small') {
         padding-top: 40px;
     }
@@ -7,6 +8,7 @@
 
 .footer-icon {
     margin-right: 10px;
+    display: inline;
     -webkit-user-drag: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -17,8 +19,10 @@
 
     a {
         text-decoration: none;
+
         &:hover {
             text-decoration: none;
+
             img {
                 opacity: 0.6;
             }
@@ -26,11 +30,19 @@
     }
 }
 
-.footer-icon-github {
-    margin-right: 0px !important;
+.icon {
+    border-radius: 0px !important;
+    stroke: var(--highlight-color);
 }
 
-.icon{
-    border-radius:0px !important;
-    stroke: var(--highlight-color);
+.footer-url {
+    position: relative;
+}
+
+.copyright {
+    display: inline-block;
+    font-size: 0.75rem;
+    @include breakpoint('mini') {
+        font-size: 1rem;
+    }
 }

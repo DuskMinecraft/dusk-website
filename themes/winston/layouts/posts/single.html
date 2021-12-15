@@ -7,6 +7,7 @@
       {{ partial "author.html" . }}
     {{ end }}
     <div class="content">
+      <div class="lastmod-date">「最后修改：{{ .Lastmod.Format "2006-01-02" }}」</div>
       <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">。</span>{{ end }}</h1>
       {{ if .Params.image }}
       <img src="{{ .Params.image | relURL }}" />
