@@ -1,4 +1,4 @@
-baseURL = "http://121.41.122.111/"
+baseURL = "http://duskmc.cn/"
 themesDir = "themes"
 theme = "winston"
 languageCode = 'zh-Hans-CN'

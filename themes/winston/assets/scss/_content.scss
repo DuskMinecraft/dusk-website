@@ -181,6 +181,7 @@ s, strike, del {
   code,
   pre {
     font-family: var(--font-family-monospace);
+    word-wrap: break-word;
   }
   .highlight {
     pre {
