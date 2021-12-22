@@ -1,7 +1,7 @@
 baseURL = "http://121.41.122.111/"
 themesDir = "themes"
 theme = "winston"
-languageCode = 'zh-cmn-Hans'
+languageCode = 'zh-Hans-CN'
 title = 'Dusk Minecraft'
 copyright = 'duskmc.cn. 保留所有权利。'
 
