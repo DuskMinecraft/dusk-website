@@ -182,6 +182,7 @@ s, strike, del {
   pre {
     font-family: var(--font-family-monospace);
     word-wrap: break-word;
+    word-break: keep-all;
   }
   .highlight {
     pre {

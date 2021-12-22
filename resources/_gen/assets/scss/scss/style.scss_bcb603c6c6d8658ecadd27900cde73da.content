@@ -309,7 +309,8 @@ s, strike, del {
   .content code,
   .content pre {
     font-family: var(--font-family-monospace);
-    word-wrap: break-word; }
+    word-wrap: break-word;
+    word-break: keep-all; }
   .content .highlight pre {
     border-radius: 3px;
     font-size: 14px;
