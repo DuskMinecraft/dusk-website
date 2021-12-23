@@ -46,3 +46,13 @@
         font-size: 1rem;
     }
 }
+
+.china {
+    margin-right: 2px;
+    border-radius: 0px;
+    height:12px;
+    @include breakpoint('mini') {
+        height:16px;
+    }
+    display: inline-block;
+}
