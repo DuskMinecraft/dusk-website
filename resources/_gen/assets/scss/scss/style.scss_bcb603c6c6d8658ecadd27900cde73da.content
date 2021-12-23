@@ -159,14 +159,20 @@ h1, h2, h3 {
   @media (min-width: 450px) {
     .copyright {
       font-size: 1rem; } }
-.china {
-  margin-right: 2px;
-  border-radius: 0px;
-  height: 12px;
-  display: inline-block; }
+.beian {
+  display: inline-block;
+  font-size: 0.75rem; }
   @media (min-width: 450px) {
-    .china {
-      height: 16px; } }
+    .beian {
+      font-size: 1rem; } }
+  .beian .china {
+    vertical-align: text-bottom;
+    margin-right: 2px;
+    border-radius: 0px;
+    height: 0.75rem; }
+    @media (min-width: 450px) {
+      .beian .china {
+        height: 1rem; } }
 a {
   color: var(--highlight-color);
   text-decoration: none; }
