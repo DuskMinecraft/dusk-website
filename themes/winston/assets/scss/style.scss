@@ -47,7 +47,7 @@ body {
     padding: 50px;
   }
   &.frame {
-    min-height: 100vh;
+    min-height: 50vh;
     border: 18px solid var(--highlight-color);
     border-image-slice: 1;
     border-image-source: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
