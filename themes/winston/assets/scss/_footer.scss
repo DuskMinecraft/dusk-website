@@ -50,6 +50,7 @@
 .beian{
     display: inline-block;
     font-size: 0.75rem;
+    word-break: keep-all;
     @include breakpoint('mini') {
         font-size: 1rem;
     }
