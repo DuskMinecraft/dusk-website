@@ -24,11 +24,12 @@ menu:
 | ID             | 介绍               |
 | :------------- | :----------------- |
 | Lemon_Bomb     | 维护、风纪委、策划 |
-| lu_shang       | 服务器程序支援     |
-| nobody666      | 支持者、志愿者     |
-| TheLittle_P    | 风纪委、策划       |
-| TheLittle_Wind | 沙袋、风纪委、策划 |
-| TSUYYY         | 风纪委、策划       |
+| lu_shang       | 程序支援     |
+| nobody666      | 风纪委、支持者、志愿者 |
+| Smerrybeta     | 宣传                   |
+| TheLittle_P    | 风纪委、策划           |
+| TheLittle_Wind | 风纪委、策划、沙袋     |
+| TSUYYY | 风纪委、策划 |
 
 ------
 
@@ -36,9 +37,12 @@ menu:
 
 | ID              | 介绍                                 |
 | :-------------- | :----------------------------------- |
-| BitterTure_Jing | 澜舟云服主、偶尔也帮点小忙           |
-| Bocai_BCA       | 前期大力支持服务器、前策划           |
-| Iamw            | 前管理                               |
-| TheLittle_Long  | 我是谁？我在哪？                     |
-| You_Ran_Gracias | 土豪、一直以来大力赞助服务器         |
-| YuLong          | 前建筑审核、前管理、前期帮忙建造主城 |
+| BitterTure_Jing | 澜舟云服主、偶尔帮点小忙           |
+| Bocai_BCA       | 土豪、支持者、前策划           |
+| IamW            | 前风纪委                               |
+| Omega_Lovecraft | 前风纪委、前策划                 |
+| Omicron_Memento | 前风纪委、前策划                 |
+| TheLittle_Long  | 前风纪委                 |
+| TheLittle_Tao | 前建筑审核、支持者 |
+| You_Ran_Gracias | 土豪、支持者 |
+| YuLong          | 前建筑审核、前风纪委     |
