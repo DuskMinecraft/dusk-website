@@ -29,7 +29,7 @@ menu:
 | Smerrybeta     | 宣传                   |
 | TheLittle_P    | 风纪委、策划           |
 | TheLittle_Wind | 风纪委、策划、沙袋     |
-| TSUYYY | 风纪委、策划 |
+| TSUYYYY | 风纪委、策划 |
 
 </br>
 以下为曾经的支援者名单（排名按 ID 首字母）
