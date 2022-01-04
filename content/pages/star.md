@@ -16,7 +16,7 @@ menu:
 
 [^*]:因为平台限制，游戏内 Star 购买仅限支付宝支付（自动授予Star），如您需要用微信支付，此码也可用于支付 Star（非自动授予Star）
 
-<img src="https://s2.loli.net/2022/01/04/TqcHouFxkIwGaDA.png" alt="Wechat" style="zoom: 50%;" />
+<img src="https://s2.loli.net/2022/01/04/TqcHouFxkIwGaDA.png" alt="Wechat" style="zoom: 33%;" />
 
 ## Star 的一些回馈
 
