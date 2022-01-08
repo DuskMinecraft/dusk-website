@@ -35,6 +35,13 @@
     stroke: var(--highlight-color);
 }
 
+.footnotes{
+    font-size: 0.75rem;
+    @include breakpoint('mini') {
+        font-size: 1rem;
+    }
+}
+
 .footer-url {
     position: relative;
 }
